@@ -10,14 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var cityLbl: UILabel!
+    @IBOutlet weak var stateLbl: UILabel!
+    @IBOutlet weak var mainWeatherImg: UIImageView!
+    @IBOutlet weak var currentTempLbl: UILabel!
+    @IBOutlet weak var currentTimeLbl: UILabel!
+    @IBOutlet weak var currentDayLbl: UILabel!
+    @IBOutlet weak var highTempLbl: UILabel!
+    @IBOutlet weak var lowTempLbl: UILabel!
+    @IBOutlet weak var currentWindSpeedLbl: UILabel!
+    @IBOutlet weak var percentChanceRainLbl: UILabel!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        var weather = Weather(locationID: "ID")
+        
     }
 
 
