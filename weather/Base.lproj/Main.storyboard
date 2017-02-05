@@ -44,13 +44,12 @@
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="New York" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40b-8n-CzU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="cloudy" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40b-8n-CzU">
                                 <rect key="frame" x="16" y="108" width="343" height="25"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="25" id="hAr-8w-S3u"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
-                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="106°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62x-WA-yJ9">
@@ -130,7 +129,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="YEc-9u-ys2">
                                         <rect key="frame" x="174.5" y="0.0" width="50" height="53"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 MPH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7Z-YY-3PQ">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15 MPH" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7Z-YY-3PQ">
                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="26"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="50" id="48y-a0-LQN"/>
@@ -151,7 +150,7 @@
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cfz-mS-GQ2">
                                         <rect key="frame" x="244.5" y="0.0" width="60.5" height="53"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="umbrella" translatesAutoresizingMaskIntoConstraints="NO" id="0Af-9l-ZwL">
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud" translatesAutoresizingMaskIntoConstraints="NO" id="0Af-9l-ZwL">
                                                 <rect key="frame" x="0.0" y="0.0" width="30" height="53"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="30" id="3gE-Bd-A1M"/>
@@ -169,7 +168,7 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" red="0.24643817160000001" green="0.53696160770000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.081361196602528496" green="0.60694086320421081" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="40b-8n-CzU" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1IG-xZ-U4K"/>
                             <constraint firstItem="V4u-ua-Kvg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="5" id="5xC-yQ-pzN"/>
@@ -181,7 +180,7 @@
                             <constraint firstItem="SgF-T6-XFv" firstAttribute="top" secondItem="62x-WA-yJ9" secondAttribute="bottom" constant="50" id="Tdn-5p-YRe"/>
                             <constraint firstItem="V4u-ua-Kvg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="XHa-4J-B1U"/>
                             <constraint firstItem="62x-WA-yJ9" firstAttribute="top" secondItem="vcZ-mg-acA" secondAttribute="bottom" constant="5" id="kEY-hS-Yvr"/>
-                            <constraint firstItem="40b-8n-CzU" firstAttribute="top" secondItem="S5C-Q3-OdB" secondAttribute="bottom" constant="5" id="nvo-av-u8L"/>
+                            <constraint firstItem="40b-8n-CzU" firstAttribute="top" secondItem="S5C-Q3-OdB" secondAttribute="bottom" constant="20" id="nvo-av-u8L"/>
                             <constraint firstItem="SgF-T6-XFv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="o9T-US-Ck8"/>
                             <constraint firstItem="40b-8n-CzU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="qO9-lV-o6N"/>
                             <constraint firstItem="S5C-Q3-OdB" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="rnO-uP-ST6"/>
@@ -190,15 +189,15 @@
                     </view>
                     <connections>
                         <outlet property="cityLbl" destination="S5C-Q3-OdB" id="aYQ-XT-4a6"/>
+                        <outlet property="cloudPercentageLbl" destination="h5k-gA-mXz" id="v7c-Kq-qeS"/>
                         <outlet property="currentDayLbl" destination="bdG-Ox-f1v" id="C4B-DX-LTF"/>
                         <outlet property="currentTempLbl" destination="62x-WA-yJ9" id="oFr-TV-Kgj"/>
                         <outlet property="currentTimeLbl" destination="f29-d9-xw6" id="T4u-cY-Q6C"/>
                         <outlet property="currentWindSpeedLbl" destination="N7Z-YY-3PQ" id="EQm-yJ-HGx"/>
+                        <outlet property="descLbl" destination="40b-8n-CzU" id="xai-jO-STd"/>
                         <outlet property="highTempLbl" destination="Ffd-EW-btf" id="DXS-Lx-QLT"/>
                         <outlet property="lowTempLbl" destination="19I-8N-pyG" id="5g6-To-L1V"/>
                         <outlet property="mainWeatherImg" destination="vcZ-mg-acA" id="MH3-v6-5Ya"/>
-                        <outlet property="percentChanceRainLbl" destination="h5k-gA-mXz" id="3wa-54-TJA"/>
-                        <outlet property="stateLbl" destination="40b-8n-CzU" id="37f-GI-X3K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -210,7 +209,6 @@
         <image name="cloud" width="325" height="300"/>
         <image name="location" width="318" height="490"/>
         <image name="mid_temp" width="120" height="282"/>
-        <image name="umbrella" width="252" height="258"/>
         <image name="wind" width="312" height="156"/>
     </resources>
 </document>
